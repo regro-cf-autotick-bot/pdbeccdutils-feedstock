@@ -1,5 +1,5 @@
 {% set name = "pdbeccdutils" %}
-{% set version = "1.0.4" %}
+{% set version = "2.0.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pdbeccdutils-{{ version }}.tar.gz
-  sha256: aa9d4ff0832becce7d60508a1355838e9c0aba780631b51accde6e797da57db6
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pdbeccdutils-{{ version }}.tar.gz
+  sha256: 6b9a4cc8f6b426ef7a23483e77c192d8ee038788c6b298774d7bb1cb50410479
 
 build:
   entry_points:
